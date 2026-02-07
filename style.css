@@ -1,0 +1,318 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: #14120B;
+     box-sizing: border-box;
+}
+body{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#navbar{
+    margin-top: 20px;
+   justify-content: space-around;
+    display: flex;
+}
+#center{
+    display: flex;
+    gap: 20px;
+}
+#navbar img{
+    width: 100px;
+}
+#right{
+   
+    gap: 15px;
+    display: flex;
+}
+#signin button{
+    color: white;
+    background-color: #281919;
+}
+#download button{
+    background-color: #fff;
+    font-weight: 400;
+}
+#right button{
+    border-radius: 10px;
+    padding-bottom: 5px;
+    width: 78px;
+    height: 30px;
+}
+
+#head_content{
+   margin-left: 100px;
+    margin-top: 120px;
+    /* border: 2PX solid red; */
+}
+#head_content button{
+    margin-top: 20px;
+    height: 40px;
+    border-radius: 20px;
+    font-weight: 500;
+    padding-left: 2px;
+    width: 155px;
+    background-color: #fff;
+}
+#head_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+#head_img img{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 1300px;
+}
+#brands{
+        margin-top: 40px;
+    /* border: 2px solid red; */
+    text-align: center;
+}
+
+.company_card{
+    border-radius: 10px;
+    margin-top: 10px;
+    /* border: 2px solid red; */
+    height: 125px;
+/* overflow: hidden; */
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    background-color: #1A1814;
+    background-color: transparent;
+
+
+    width: 170px;
+}
+#companies{
+    justify-content: space-evenly;
+    display: flex;
+}
+#companies img{
+  
+    width: 100px;
+}
+
+#Agent{    
+    background-color: #1D1B15;
+    display: flex;
+    /* border: 2px solid red; */
+     width: 1300px;
+     align-items: center;
+     min-height: 100vh;
+     margin-left: 50px;
+      border-radius: 5px;
+}
+
+ #Agent a{
+    margin-left: 5px;
+    background-color: #1D1B15;
+   
+ }
+
+#agent_content{
+     background-color: #1D1B15;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#agent_para {
+     background-color: #1D1B15;
+    color: red  ;
+   
+} 
+#agent_para:hover{
+    color: rgba(247, 0, 0, 0.658)  ;
+} 
+a{
+    color: red;
+    text-decoration: none;
+     background-color: #1D1B15;
+}
+#outercontainer {
+     background-color: #1D1B15;
+ display: flex;
+  padding-left: 50px;   
+  gap: 30px;          
+}
+
+
+
+#agent_content b     {
+  font-size: 23px;
+   background-color: #1D1B15;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 12px;
+  margin-right: 10px;
+}
+
+#agent_ss img{
+    overflow: hidden;
+     background-color: #1D1B15;
+    border-radius: 10px;
+    width: 900px;
+
+}
+
+#new_way{
+    /* border: 2px solid red; */
+    text-align: center;
+    /* display: flex; */
+    justify-content: center;
+    margin-left: 60px;
+    gap: 19px;
+}
+
+#new_way_h1{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.crd {
+    text-align: left;
+    margin-top: 40px;
+    border: 2px solid rgb(33, 32, 32);
+    border-radius: 5px;
+    width: 450px;
+    height: 260px;
+    padding: 24px 28px;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.btm_profile img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+}
+.crd {
+    margin-top: 40px;
+    /* border: 2px solid red; */
+    width: 450px;
+    height: 260px;
+    padding: 24px 28px;
+ gap: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.btm_profile img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+}
+.outer_row{
+    display: flex;
+     gap: 30px;
+}
+
+#frontier h1{
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+.froniter_cards{
+    /* border: 2px solid red; */
+    height: 520px;
+    width: 450px;
+    margin-top: 50px;
+    
+    
+}
+#frnt_card{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.froniter_cards p,a{
+margin: 20px;
+}
+.froniter_cards p{
+    margin-top: 5px;
+}
+.froniter_cards img{
+    display: block;
+
+  margin: 25px;
+   height: 370px;
+    width: 400px;
+}
+
+
+a{
+    margin-left: 20px;
+    background-color:  #14120B;
+}
+.internal_card_changelog p{
+    margin: 10px;
+     background-color: #1D1B15;
+}
+.internal_card_changelog{
+   
+    width: 250px;
+      border: 2px solid rgb(33, 32, 32);
+  background-color: #1D1B15;
+  border-radius: 5px;
+
+    
+}
+#changelog h2{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 90px;
+}
+#changelog a{
+  margin-top: 200px;
+   margin-left: 90px;
+}
+#changelog_card{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 10px;
+}
+#join_us{
+    margin-top: 40px;
+
+}
+#join_us img{
+    overflow: hidden;
+    
+}
+#join_us a{
+    background-color: #1D1B15;
+    
+}
+
+#recent_cards{
+    margin: auto;
+    
+    /* border: 2px solid red; */
+    width: 550px;
+}
+.recent_cards_internal{
+    margin-bottom: 20px;
+       border: 2px solid rgb(57, 50, 50);
+      border-radius: 5px;
+      background-color: #000000;
+       
+}
+#recent h3, a{
+     margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+}
+
+
