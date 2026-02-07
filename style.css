@@ -26,6 +26,7 @@ body{
     display: flex;
 }
 #signin button{
+   
     color: white;
     background-color: #281919;
 }
@@ -34,10 +35,11 @@ body{
     font-weight: 400;
 }
 #right button{
-    border-radius: 10px;
+    border-radius: 20px;
     padding-bottom: 5px;
     width: 78px;
     height: 30px;
+    padding-top: 5px;
 }
 
 #head_content{
